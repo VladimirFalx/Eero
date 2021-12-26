@@ -1,0 +1,27 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.logo-icon {
+  fill: blue;
+  stroke: blue;
+}
+.logo:hover .logo-icon {
+  fill: red;
+  stroke: red;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  display: flex;
+}
+.nav-item:not(:last-child) {
+  margin-right: 37px;
+}
+.nav-link {
+  padding: 30px 0 25px;
+}
